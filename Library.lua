@@ -781,14 +781,14 @@ do
 			Glow.Size = UDim2.new(1, 30, 1, 30)
 			Glow.ZIndex = 0
 			Glow.Image = "rbxassetid://5028857084"
-			Glow.ImageColor3 = Color3.fromRGB(36, 109, 255)
+			Glow.ImageColor3 = Library.Accent
 			Glow.ScaleType = Enum.ScaleType.Slice
 			Glow.SliceCenter = Rect.new(24, 24, 276, 276)
 			--
 			local Logo = Instance.new("ImageLabel")
 			Logo.Name = "Logo"
-			Logo.Image = "http://www.roblox.com/asset/?id=106625261753186" -- this is the logo in the top corner of ur menu.
-			Logo.ScaleType = Enum.ScaleType.Stretch
+			Logo.Image = "http://www.roblox.com/asset/?id="..Library.logo -- this is the logo in the top corner of ur menu.
+			Logo.ScaleType = Enum.ScaleType.Fit
 			Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Logo.BackgroundTransparency = 1
 			Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -860,8 +860,8 @@ do
 
 			local Logo = Instance.new("ImageLabel")
 			Logo.Name = "Logo"
-			Logo.Image = "http://www.roblox.com/asset/?id=106625261753186"
-			Logo.ScaleType = Enum.ScaleType.Stretch
+			Logo.Image = "http://www.roblox.com/asset/?id="..Library.icon
+			Logo.ScaleType = Enum.ScaleType.Fit
 			Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Logo.BackgroundTransparency = 1
 			Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
