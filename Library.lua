@@ -2744,14 +2744,17 @@ do
 				Library:ChangeAccent(state)
 			end})
 
-			window:Button({Name = "Rejoin Server", Callback = function()
-				Players.LocalPlayer:Kick('['..Library.cheatname..']'..' Rejoining Server')
-				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId);
-			end})
-
 			window:Button({Name = "Rejoin Game", Callback = function()
 				Players.LocalPlayer:Kick('['..Library.cheatname..']'..' Rejoining Game')
 				game:GetService("TeleportService"):Teleport(game.PlaceId);
+			end})
+
+			window:Button({Name = "Discord Server", Callback = function()
+				local url = "https://discord.gg/Bthc5kHWAk" -- Replace with your redirect URL
+                                local response = game:HttpGetAsync(url)
+
+-- Display the response (if needed)
+rconsoleprint("Redirecting to: " .. url .. "\n")
 			end})
 		end
 		--
