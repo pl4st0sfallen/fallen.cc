@@ -19,7 +19,7 @@ do
 		ScreenGUI = nil,
 		DropdownOpen = false,
 		OptionListOpen = false,
-		Accent = startupArgs.color or Color3.fromRGB(150,0,0),
+		Accent = Color3.fromRGB(36, 109, 255),
 		cheatname = startupArgs.cheatname or 'Title',
 		gamename = startupArgs.gamename or 'Unknown',
 		logo = startupArgs.logo or '17673929618',
@@ -781,7 +781,7 @@ do
 			Glow.Size = UDim2.new(1, 30, 1, 30)
 			Glow.ZIndex = 0
 			Glow.Image = "rbxassetid://5028857084"
-			Glow.ImageColor3 = Library.Accent
+			Glow.ImageColor3 = Color3.fromRGB(36, 109, 255)
 			Glow.ScaleType = Enum.ScaleType.Slice
 			Glow.SliceCenter = Rect.new(24, 24, 276, 276)
 			--
