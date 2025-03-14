@@ -787,8 +787,8 @@ do
 			--
 			local Logo = Instance.new("ImageLabel")
 			Logo.Name = "Logo"
-			Logo.Image = "http://www.roblox.com/asset/?id=112553793367032" -- this is the logo in the top corner of ur menu.
-			Logo.ScaleType = Enum.ScaleType.Fit
+			Logo.Image = "http://www.roblox.com/asset/?id=106625261753186" -- this is the logo in the top corner of ur menu.
+			Logo.ScaleType = Enum.ScaleType.Stretch
 			Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Logo.BackgroundTransparency = 1
 			Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -860,8 +860,8 @@ do
 
 			local Logo = Instance.new("ImageLabel")
 			Logo.Name = "Logo"
-			Logo.Image = "http://www.roblox.com/asset/?id=112553793367032"
-			Logo.ScaleType = Enum.ScaleType.Fit
+			Logo.Image = "http://www.roblox.com/asset/?id=106625261753186"
+			Logo.ScaleType = Enum.ScaleType.Stretch
 			Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Logo.BackgroundTransparency = 1
 			Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
