@@ -2749,13 +2749,6 @@ do
 				game:GetService("TeleportService"):Teleport(game.PlaceId);
 			end})
 
-			window:Button({Name = "Discord Server", Callback = function()
-				local url = "https://discord.gg/Bthc5kHWAk" -- Replace with your redirect URL
-                                local response = game:HttpGetAsync(url)
-
--- Display the response (if needed)
-rconsoleprint("Redirecting to: " .. url .. "\n")
-			end})
 		end
 		--
 	end
