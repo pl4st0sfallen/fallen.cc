@@ -782,6 +782,7 @@ do
 			Glow.ZIndex = 0
 			Glow.Image = "rbxassetid://5028857084"
 			Glow.ImageColor3 = Library.Accent
+			Glow.ImageTransparency = 1
 			Glow.ScaleType = Enum.ScaleType.Slice
 			Glow.SliceCenter = Rect.new(24, 24, 276, 276)
 			--
@@ -2747,6 +2748,12 @@ do
 			window:Button({Name = "Rejoin Game", Callback = function()
 				Players.LocalPlayer:Kick('['..Library.cheatname..']'..' Rejoining Game')
 				game:GetService("TeleportService"):Teleport(game.PlaceId);
+			end})
+			window:Button({Name = "Toggle Build Version", Callback = function()
+				Players.LocalPlayer.PlayerGui.Main.BuildVersion.Visible = not Players.LocalPlayer.PlayerGui.Main.BuildVersion.Visible
+			end})
+			window:Button({Name = "Toggle Server Name", Callback = function()
+				Players.LocalPlayer.PlayerGui.Main.ServerName.Visible = not Players.LocalPlayer.PlayerGui.Main.ServerName.Visible
 			end})
 
 		end
