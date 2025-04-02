@@ -2583,7 +2583,7 @@ do
 			Outline.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Outline.Position = UDim2.new(1, -10, 0, 10)
 			Outline.Size = UDim2.fromOffset(100, 20)
-			Outline.Visible = false
+			Outline.Visible = true
 			Outline.ZIndex = 50
 			Outline.Parent = Library.ScreenGUI
 
